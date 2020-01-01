@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     refresh() {
-      this.$store.dispatch('getProfile');
+      // this.$store.dispatch('getProfile');
     },
     goNext(type, id) { // 跳转方法
       switch(type) {

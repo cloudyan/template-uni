@@ -1,4 +1,4 @@
-import api from '@/api/index'
+import api, { setCommonParams, setHeaders } from '@/api/index'
 import mini from '@/utils/mini'
 import storage from '@/utils/storage'
 import { deepCopy } from '@/utils/index'

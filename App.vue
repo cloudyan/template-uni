@@ -55,7 +55,7 @@ export default {
         store.dispatch('setSystemData', {type: 'SET_NETINFO', data: res});
       }
     });
-    store.dispatch('getLocation');
+    // store.dispatch('getLocation');
   },
   onHide: function() {
     console.log('App Hide')
